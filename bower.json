@@ -1,0 +1,14 @@
+{
+  "name": "codewiz",
+  "version": "0.0.0",
+  "main": "app/index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/thirdparty",
+    "test",
+    "tests"
+  ]
+}
