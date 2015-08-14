@@ -1,23 +1,23 @@
 <!-- ==========================
   FOOTER - START
-=========================== -->   
-<section id="footer">
+=========================== -->
+<section id="footer" ng-controller="FooterCtrl as footer">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 scrollpoint sp-effect3">
-            
+
 <!--                 <ul class="brands brands-inline">
                         <li><a href="#"><i class="fa fa-facebook  hi-icon-effect-8"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                     </ul>   -->
-                
-                <p>&copy; codewiz.de 2014</p>
-            </div>    
+
+                    <p>&copy; codewiz.de 2014 - {{footer.today | date: 'yyyy'}}</p>
+            </div>
         </div>
     </div>
 </section>
 <!-- ==========================
-  FOOTER - END 
+  FOOTER - END
 =========================== -->
